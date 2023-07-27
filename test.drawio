@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T23:45:57.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="sHzqRKVm2fmDGeJBHCw5" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T23:21:28.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="oz56iOwL1yMf3TXd06ry" version="21.6.5" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -49,11 +49,14 @@
         <mxCell id="8M9ff8v6PGam0uwDF1Cn-9" value="Remove eggs from pan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8M9ff8v6PGam0uwDF1Cn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8M9ff8v6PGam0uwDF1Cn-10" target="8M9ff8v6PGam0uwDF1Cn-12" edge="1">
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8M9ff8v6PGam0uwDF1Cn-10" target="f9Z4VGRHGhqx-rwErZW8-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8M9ff8v6PGam0uwDF1Cn-10" value="Put eggs into cold water" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8M9ff8v6PGam0uwDF1Cn-11" target="8M9ff8v6PGam0uwDF1Cn-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8M9ff8v6PGam0uwDF1Cn-11" value="Leave eggs in pan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="570" width="120" height="60" as="geometry" />
@@ -105,6 +108,27 @@
         </mxCell>
         <mxCell id="8M9ff8v6PGam0uwDF1Cn-47" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="1140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f9Z4VGRHGhqx-rwErZW8-5" target="8M9ff8v6PGam0uwDF1Cn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f9Z4VGRHGhqx-rwErZW8-5" target="f9Z4VGRHGhqx-rwErZW8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-5" value="Timer 120 seconds" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="870" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f9Z4VGRHGhqx-rwErZW8-10" target="f9Z4VGRHGhqx-rwErZW8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-10" value="Leave eggs in cold water" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-15" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f9Z4VGRHGhqx-rwErZW8-16" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="910" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
